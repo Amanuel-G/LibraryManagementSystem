@@ -1,0 +1,55 @@
+.bookContainer{
+	width: 45%;
+	float: left;
+	clear:right;
+	margin:5px;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	
+
+}
+
+.titleLink{
+	text-decoration: none;
+}
+
+.titleLink:link{
+	color: black;
+}
+
+.titleLink:visited{
+	color: black;
+}
+.Title{
+	font-size: 1.1em;
+}
+
+.bookImage{
+	width: 30%;
+	float:left;
+	clear:right;
+	padding-right:-100px;
+
+}
+
+.bookContent{
+	
+	width: 30%;
+	float:left;
+	clear:right;
+
+}
+
+.RSContainer{
+	width: 100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	float: left;
+	padding-left: 5px;
+	margin: 5px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+
+}

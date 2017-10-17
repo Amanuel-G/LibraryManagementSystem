@@ -1,0 +1,37 @@
+body{
+	font-size:1.2em;
+	color: lightblue;
+}
+.mainOne{
+	
+	border:solid 1px lightblue;
+	width: 98%;
+	margin: auto;
+   /*  border: hidden; */
+	background-color:white;
+	padding:10px;
+	/* height: 1400px; */
+	padding: 1%;
+	
+}
+#placeHolder{
+	width: 65%;
+	height:auto;
+	border: 1px solid lightblue;
+    margin: auto;
+    margin-bottom: 1%;
+}
+#statment{
+	font-family: century gothic;
+	height: 300px;
+	width: 64%;
+    margin: auto;
+    padding: 0.5%;
+    color: rosybrown;
+    
+}
+img#backimage{
+    width: 100%;
+    margin: auto;
+    height:700px;
+}

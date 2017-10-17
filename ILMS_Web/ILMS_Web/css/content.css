@@ -1,0 +1,327 @@
+
+#content{
+	width: 79%;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	background: white;
+	position: relative;
+	left: 0px;
+	text-align: center;
+	-moz-transition:transform 0.3s ease-in;
+	-webkit-transition:transform 0.3s ease-in;
+	-ms-transition:transform 0.3s ease-in;
+	-o-transition:transform 0.3s ease-in;
+	transition:transform 0.3s ease-in;
+	border: 1px solid #EEE;
+	overflow: auto;
+}
+
+/*#middleContent{
+	width: 79%;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	position: relative;
+	left: 0px;
+	text-align: center;
+	-moz-transition:transform 0.3s ease-in;
+	-webkit-transition:transform 0.3s ease-in;
+	-ms-transition:transform 0.3s ease-in;
+	-o-transition:transform 0.3s ease-in;
+	transition:transform 0.3s ease-in;
+	border: 1px solid #EEE;
+	overflow: auto;
+
+}*/
+.blockTag{
+	width: 79%;
+	margin: 0px auto 0px auto;
+	
+	-moz-transition:transform 0.3s ease-in;
+	-webkit-transition:transform 0.3s ease-in;
+	-ms-transition:transform 0.3s ease-in;
+	-o-transition:transform 0.3s ease-in;
+	transition:transform 0.3s ease-in;
+}
+.searchs{
+	border-top:solid 2px #fff;
+	height:140px;
+	width:100%;
+}
+.searchs form{
+
+}
+.search{
+	border: solid 2px black;
+	
+}
+.blockTag.visible{
+	-moz-transform:translateX(12%);
+	-webkit-transform:translateX(12%);
+	-ms-transform:translateX(12%);
+	-o-transform:translateX(12%);
+	transform:translateX(12%);
+	
+	-moz-transition:transform 0.3s ease-in;
+	-webkit-transition:transform 0.3s ease-in;
+	-ms-transition:transform 0.3s ease-in;
+	-o-transition:transform 0.3s ease-in;
+	transition:transform 0.3s ease-in;
+
+}
+#slider.visible{
+	-moz-transform:translateX(12%);
+	-webkit-transform:translateX(12%);
+	-ms-transform:translateX(12%);
+	-o-transform:translateX(12%);
+	transform:translateX(12%);
+	
+	-moz-transition:transform 0.3s ease-in;
+	-webkit-transition:transform 0.3s ease-in;
+	-ms-transition:transform 0.3s ease-in;
+	-o-transition:transform 0.3s ease-in;
+	transition:transform 0.3s ease-in;
+
+}
+
+#content .contentHeader{
+	width: 75%;
+	margin: auto;
+	height: 60px;
+}
+
+.contentHeader #logo{
+	float: right;
+	cursor: pointer;
+	margin:2%;
+	font-size: 1.5em;
+	color:#1d4d7e;
+	font-weight: 500;
+}
+
+#content.visible {
+	-moz-transform:translateX(12%);
+	-webkit-transform:translateX(12%);
+	-ms-transform:translateX(12%);
+	-o-transform:translateX(12%);
+	transform:translateX(12%);
+	
+	-moz-transition:transform 0.3s ease-in;
+	-webkit-transition:transform 0.3s ease-in;
+	-ms-transition:transform 0.3s ease-in;
+	-o-transition:transform 0.3s ease-in;
+	transition:transform 0.3s ease-in;
+}
+.form-container{
+	width: 60%;
+	margin: auto;
+	height: 150px;
+	position: relative;
+	top: 200px;
+}
+#userContainer,#passContainer,#log{
+    height: 70px;
+	
+}
+#userContainer label,#passContainer label{
+	border-radius:6px;
+	height:40px;	
+	position:relative;
+	top:8px;
+	
+}
+#userContainer input,#passContainer input{
+	height:40px;
+	border-radius:6px;
+	
+}
+#password,#username{
+    border: 1px solid lightblue;
+    border-radius: 2px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgba(255,255,255,0.7);
+	color: rgba(18,58,152,0.7);
+
+    width: 31%;
+}
+#user,#pass{
+	float: right;
+	height: 20px;
+	width: 70%;
+	border-radius: 2px;
+	font-family: century gothic;
+    margin-right: 1%;
+}
+#login{
+	
+	height: 40px;
+	width: 75px;
+	font-family: century gothic;
+	font-size: 1.3em;
+	border-radius: 3px;
+	background-color: rgba(255,255,255,0.5);
+	color: rgba(18,58,152,0.7);
+}
+#profileContainer{
+	float:right;
+	height: 30em;
+	width: 33%;
+	border: solid grey 1px;
+	margin-right: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding:5px;
+}
+
+#resultContainer{
+	float:left;
+	width: 64%;
+	//border: solid black 1px;
+}
+
+#reviewContainer{
+	float:left;
+	width: 64%;
+	//border: solid black 1px;
+}
+
+#myFloat{
+	float:left;
+	width: 100%;
+}
+
+@media all and (max-width:1045px){
+    #userContainer,#passContainer,#log{
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+    }
+    
+}
+@media all and (max-width:853px){
+    #userContainer,#passContainer,#log{
+        width: 100%;
+        height: 50px;
+        padding: 5px;
+    }
+    #password,#username{
+         padding: 5px;
+    }
+    #user,#pass{
+        width: 60%;
+        border-radius: 2px;
+        font-family: century gothic;
+        margin-right: 0.5%;
+    }
+    #login{
+
+        height: 30px;
+        width: 60px;
+        font-family: century gothic;
+        font-size: 1.1em;
+        
+    }
+    #userContainer,#passContainer,#log{
+        height: 40px;
+    }
+}
+@media all and (max-width:595px){
+    #userContainer,#passContainer,#log{
+        width: 100%;
+        height: 50px;
+        padding: 2px;
+    }
+    
+    #user,#pass{
+        width: 55%;
+        height: 18px;
+        border-radius: 2px;
+        font-family: century gothic;
+        margin-right: 0.5%;
+    }
+    #password,#username{
+        width: 20%;
+        font-size: 0.7em;
+        margin: 1%;
+        height: 18px;
+        padding: 5px;
+    }
+    #login{
+
+        height: 25px;
+        width: 50px;
+        font-family: century gothic;
+        font-size: 0.8em;
+    }
+    #userContainer,#passContainer,#log{
+        height: 30px;
+    }
+}
+@media all and (max-width:426px){
+    #password,#username{
+        font-size: 0.5em;
+        padding: 5px 3px 5px 3px;
+    }
+    #user,#pass{
+        width: 40%;
+        height: 14px;
+    }
+    #login{
+       height: 15px; 
+         font-size: 0.6em;
+    }
+
+}
+________________________________________________parallex_effect__________________________________________________________________
+.container {
+ width:70%;
+  margin: 0 auto;
+}
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module p {
+  margin-bottom:10%;
+  font-size: 1.3em;
+  font-family: century gothic;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding:8% 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../img/394862.jpg");
+	height: 550px;
+}
+section.module.parallax-2 {
+  background-image: url("../img/408916.jpg");
+	height: 450px;
+}
+
+@media all and (min-width: 600px) {
+  section.module p {
+    font-size: 1.3em;
+  }
+  section.module.parallax h1 {
+    font-size: 35px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 40px;
+  }
+}

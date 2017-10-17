@@ -1,0 +1,220 @@
+body{
+	background-color: #EEE;
+background-image: url(../img/lightWood.jpg);
+	font-family: century gothic;	}
+#latest-books{
+	width:64%;
+/*border:solid 12px black;*/
+	margin-left:2%;
+	margin-bottom:10%;
+}
+
+.home-page{
+	width:10%;
+}
+
+#bookcvr img{
+
+	padding:0;
+	margin:0;
+	padding-left:40px;
+	width:8em;
+	height:9.1em;	
+	padding-bottom:-10px;
+}
+
+#bookstitle p{
+	width:12em; 
+	text-align:center;
+	padding:0;
+	
+}
+h1{
+	background-color:rgba(255,255,255,0.5);
+}
+
+.sameBook{
+	padding:13px;
+	height:220px;
+	overflow: hidden;
+	border:solid 1px lightblue;
+	background-color:rgba(255,255,255,0.2);
+	float:Left;
+	clear:Right;
+	
+}
+.detail a{
+	text-decoration:none;
+}
+
+#profile{
+	margin-top:2%;
+	border:solid 2px #fff;
+	float:left;
+	clear:right;
+}
+/*------------- For the rating in the book detail---------- */
+
+#rating{
+	position:relative;
+	bottom:25px;
+}
+
+
+/*------------- THE PROFILE------------- */
+#profile{
+	font-family:sans-serif;
+	width:30.5%;
+	margin-left:3%;
+	margin-bottom:10%;
+}
+#profile #userProfile{
+	margin-left:6%;
+}
+#profile img{
+	margin-left:6%;
+	height:13em;
+	width:11em;
+}
+#profile #upload:hover a{
+	opacity:.7;
+	color:white;
+}
+#profile #upload{
+	position:relative;
+	bottom:1.5em;
+}
+#profile a{
+	border:solid 2px black;
+	position:relative;
+
+	margin-left:6%;
+	
+	background-color:black;
+	padding-right:6.8em;
+	padding-left:.5em;
+	padding-top:0.1em;
+	padding-bottom:0.1em;
+	font-size:100%;
+	border-radius:2px;
+	text-decoration:none;
+	opacity:0;
+}
+#profile a:hover {
+	cursor:pointer;
+	color:rgb(78,69,73);
+}
+#upload-form {
+		/* background-color:#333; */
+		margin-left:16px;
+		width:6.8em;
+		background-color:rgba(255,255,255,0.5);
+}
+#upload-form {
+	display:none;
+	
+}
+ 
+/* -----LATEST BOOKS----- */
+
+.home-page{
+	width:100%;
+	float:left;
+	clear:right;
+}
+/*------------ HISTORY RENTED-------------- */
+#noResult{
+	margin-top:10%;
+	border:solid 2px lightblue;
+	background-color:rgba(255,255,255,0.5);
+	opacity:0.4%;
+	width:100%;
+	height:240px;
+	text-align:center;
+	padding-top:10%;
+	font-size:180%;
+	
+}
+.covers img{
+
+	width:8em;
+	height:12em;
+	
+}
+.covers{
+	padding-left:10px;
+}
+th{
+	border:solid 2px black;
+	
+	text-align:left;
+}
+.covers a#lft{
+
+	
+	color:blue;
+	text-decoration:none;
+}
+#myFloat{
+	border:solid 12px black;
+	width:100%;
+}
+.items{
+	border:solid 2px black;
+}
+.bookItem td{
+	border:solid 2px black;
+}
+
+/*---------- FOR THE Rate-------------- */
+#rating{
+	
+	float:right;
+	margin-right:14px;
+	opacity:0.8;
+}
+
+/* ---------------SLIDER-------------- */
+#slider{
+	padding-top:10px;
+	padding-bottom:10px;
+	border:solid 2px lightblue;
+	\width:79%;
+	margin:auto;
+	background-color:#fff;
+}
+/*---------- INSERT PASSWORD----------- */
+
+#passwor{
+	color:red;
+	float:right;
+	
+
+}
+
+.passwordChange input[name='changeMyPass']{
+	margin-top:8px;
+	background-color:lightblue;
+	width:80px;
+	height:30px;
+}
+.passwordChange{
+	border-radius:6px;
+	opacity:0.7;
+	padding:4%;
+	background-color:white;
+	width:40%;
+	margin:auto;
+	border:solid 2px lightblue;
+	float:left;
+	margin-left:10%;
+	margin-right:4%;
+	margin-top:10%;
+}
+#passwordSuccess{
+	color:green;
+}
+
+*{
+	font-family: century gothic;
+} 

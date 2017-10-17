@@ -1,0 +1,166 @@
+.bookDetailContainer{
+	width: 96%;
+	float: left;
+	padding-left: 10px;
+	margin: 5px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	//border: solid black 1px;
+
+}
+
+.titleLink{
+	text-decoration: none;
+}
+
+.titleLink:link{
+	color: black;
+}
+
+.titleLink:visited{
+	color: black;
+}
+.Title{
+	font-size: 1.1em;
+}
+
+.bookDetailImage{
+	width: 36%;
+	float:left;
+	//border: solid black 1px;
+}
+
+.bookDetailContent{
+	width: 62%;
+	float:left;
+	//border: solid black 1px;
+}
+
+#displayISBN{
+	width: 46.6%;
+	padding:1%;
+	float: left;
+	background-color: #f1f1f1;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	//border: solid black 1px;
+
+}
+
+#displayPage{
+	width: 48%;
+	padding:1%;
+	float: left;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	//border: solid black 1px;
+}
+
+#displayDetailed{
+	padding:1%;
+	opacity:0.8;
+	clear: left;
+	background-color: #f1f1f1;
+	height: 10.5em;
+	overflow: auto;
+	//border: solid black 1px;
+}
+#reservationDetail{
+
+	padding:1%;
+	opacity:0.86;
+	clear: left;
+	background-color: #f1f1f1;
+	height: 10.5em;
+	overflow: auto;
+}
+#reserveDiv{
+	clear: left;
+	//border: solid black 1px;
+}
+
+#reserveForm{
+	
+}
+
+#reserveInput{
+	margin-top: 20px;
+	width: 75px;
+	height: 25px;
+	background-color:  #275086;
+	color: #f8f8f8;
+	border-radius: 5px;
+}
+
+#reserveInput:disabled{
+	background-color: #f1f1f1;
+	color: grey;
+}
+
+#parReview{
+	font-size: 1.4em;
+}
+
+.reviewResults{
+	margin-left: 10px;
+}
+
+.comments{
+	background-color: #f1f1f1;
+	overflow: auto;
+	width: 90%;
+	//height: 25px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	//border: solid black 1px;
+	padding: 5px;
+	opacity: 0.7;
+}
+
+.comments p{
+	padding-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.myComments{
+	background-color: #f1f1f1;
+	width: 90%;
+	height: 25px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+}
+
+#commentButton{
+	margin-left: 80%;
+	margin-bottom: 40px;
+	width: 75px;
+	height: 25px;
+	background-color:  #275086;
+	color: #f8f8f8;
+	border-radius: 5px;
+}
+
+#hiddenBookID{
+	display:none;
+}
+
+#hiddenPatronID{
+	display:none;
+}
+
+.delete{
+	margin-left: 80%;
+	position: relative;
+	top: -2.7em;
+}
+
+/*modified*/
+.commentDate{
+	position: relative;
+	top: -1.3em;
+}

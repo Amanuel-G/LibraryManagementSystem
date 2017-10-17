@@ -1,0 +1,99 @@
+
+#stream {
+min-height: 900px;
+background: #FAFAFA;
+margin: 0px 0px 0px 0px;
+padding: 10px;
+color: #333;
+}
+
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+display: inline;
+float: left;
+position: relative;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+.bookshelf-title {
+margin: 0px 0px 0px -10px;
+padding: 0px;
+height: 55px;
+width: 660px;
+display: table;
+background: url('../shelfImages/booktitle2.jpg') top left repeat-y;
+color: white;
+font-size: 28px;
+font-style: bold;
+background-color: #889088;
+}
+.bookshelf-title a {
+text-decoration: none;
+color: #333;
+}
+.bookshelf-name-link {
+display: table-cell;
+vertical-align: middle;
+font-size: 24px;
+font-weight: bolder;
+text-shadow: 0px 2px 0px #E6C8A8;
+color: #7E5325 ;
+padding-left: 5px;
+}
+.bookshelf-more-link:link {
+color: white;
+text-decoration: none;
+font-size: 12px;
+}
+.bookshelf-body {
+width: 660px !important;
+margin: 0px 0px 0px -10px !important;
+background: url('../shelfImages/rack.jpg') top left repeat-y;
+background-position: 0px 12px;
+}
+
+.container_16 .grid_11 {
+width: 640px;
+}
+.omega {
+margin-right: 0;
+}
+.alpha {
+margin-left: 0;
+}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+display: inline;
+float: left;
+position: relative;
+margin-left: 10px;
+margin-right: 10px;
+}
+#cssmenu1{ height:37px; display:block; padding:0; margin: 0 auto;  border:1px solid; border-radius:5px; } 
+#cssmenu1 > ul {list-style:inside none; padding:0; margin:0;} 
+#cssmenu1 > ul > li {list-style:inside none; padding:0; margin:0; float:left; display:block; position:relative;} 
+#cssmenu1 > ul > li > a{ outline:none; display:block; position:relative; padding:12px 20px; font:bold 13px/100% Arial, Helvetica, sans-serif; text-align:center; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.4); } 
+#cssmenu1 > ul > li:first-child > a{border-radius:5px 0 0 5px;} 
+#cssmenu1 > ul > li > a:after{ content:''; position:absolute; border-right:1px solid; top:-1px; bottom:-1px; right:-2px; z-index:99; } 
+#cssmenu1 ul li.has-sub:hover > a:after{top:0; bottom:0;} 
+#cssmenu1 > ul > li.has-sub > a:before{ content:''; position:absolute; top:18px; right:6px; border:5px solid transparent; border-top:5px solid #fff; } 
+#cssmenu1 > ul > li.has-sub:hover > a:before{top:19px;} 
+#cssmenu1 ul li.has-sub:hover > a{ background:#3f3f3f; border-color:#3f3f3f; padding-bottom:13px; padding-top:13px; top:-1px; z-index:999; } 
+#cssmenu1 ul li.has-sub:hover > ul, #cssmenu ul li.has-sub:hover > div{display:block;} 
+#cssmenu1 ul li.has-sub > a:hover{background:#3f3f3f; border-color:#3f3f3f;} 
+#cssmenu1 ul li > ul, #cssmenu ul li > div{ display:none; width:auto; position:absolute; top:38px; padding:10px 0; background:#3f3f3f; border-radius:0 0 5px 5px; z-index:999; } 
+#cssmenu1 ul li > ul{width:200px;} 
+#cssmenu1 ul li > ul li{display:block; list-style:inside none; padding:0; margin:0; position:relative;} 
+#cssmenu1 ul li > ul li a{ outline:none; display:block; position:relative; margin:0; padding:8px 20px; font:10pt Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.5); } 
+
+#cssmenu1, #cssmenu > ul > li > ul > li a:hover{ background:#ff9812; background:-moz-linear-gradient(top, #ff9812 0%, #e17310 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9812), color-stop(100%,#e17310)); background:-webkit-linear-gradient(top, #ff9812 0%,#e17310 100%); background:-o-linear-gradient(top, #ff9812 0%,#e17310 100%); background:-ms-linear-gradient(top, #ff9812 0%,#e17310 100%); background:linear-gradient(top, #ff9812 0%,#e17310 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9812', endColorstr='#e17310',GradientType=0); } 
+#cssmenu1{border-color:#b05a0d;} 
+#cssmenu1 > ul > li > a{border-right:1px solid #b05a0d; color:#fff;} 
+#cssmenu1 > ul > li > a:after{border-color:#ffa32b;} 
+#cssmenu1 > ul > li > a:hover{background:#e17310;} 
+ 1px dotted #6db2d0;
+}
+#cssmenu1 .has-sub .has-sub ul li a:hover {
+  background: #095c80;
+}

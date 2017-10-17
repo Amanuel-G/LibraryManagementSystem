@@ -1,0 +1,312 @@
+/* Editing the main holder*/
+body{
+    background-image: url(light.jpg);
+	font-style: century gothic;
+}
+.holder{
+	width:100%;
+	margin:auto;
+	
+	margin-top:12px;
+	height:850px;
+}
+#snipnet{
+    width: 75%;
+    margin: auto;
+    height:350px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 2px 2px 15px black;
+    opacity: 0.8;
+}
+#snipnet .row{
+   width: 95%;
+    margin: 3% auto 15px auto;
+    border: hidden;
+    height: 310px;
+}
+#snipnet .row .col{
+    width: 22.5%;
+    margin: 1%;
+    margin-top: 5%;
+    height: 200px;
+    border: 1px solid white;
+    float: left;
+    transform: perspective(400px) rotateY(8deg);
+    -webkit-transform: perspective(400px) rotateY(8deg);
+}
+.col a{
+    text-decoration: none;
+    font-family: century gothic;
+    font-size:1.3em;
+    color: black;
+}
+.col .background{
+    width: 90%;
+    margin-top: 1%;
+    margin-bottom: 0px;
+   background-color: aqua;
+    height: 198px;
+}
+
+.col:hover{
+    animation-name: eeeee;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    transition-timing-function: cubic-bezier(.42, 0, .58, 1);
+
+     -webkit-animation-name: eeeee;
+     -webkit-animation-duration: 1s;
+     -webkit-animation-fill-mode: both;
+     -webkit-transition-timing-function: cubic-bezier(.42, 0, .58, 1);
+}
+.desc{
+    width: 90%;
+    opacity: 0.6;
+    height: 50px;
+    border: hidden;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    visibility: hidden;
+}
+.info{
+    height: 50px;
+    font-size: 0.8em;
+    opacity: 0.8;
+    background-color: white;
+    visibility: visible;
+    text-align: center;
+}
+@keyframes eeeee{ 
+    0%{
+        transform: perspective(400px) rotateY(8deg);
+    }
+    20%{
+         transform: perspective(400px) rotateY(-13deg) scale(1.1);
+    }
+    100%{
+         transform: perspective(400px) rotateY(0deg) scale(1.2);
+    }
+}
+@-webkit-keyframes eeeee{
+    0%{
+         -webkit-transform: perspective(400px) rotateY(8deg);
+    }
+    20%{
+          -webkit-transform: perspective(400px) rotateY(-13deg) scale(1.1);
+    }
+    100%{
+          -webkit-transform: perspective(400px) rotateY(0deg) scale(1.2);
+    }
+}
+.col:hover .desc{
+    animation-name: slideInfo;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    transition-timing-function: cubic-bezier(.42, 0, .58, 1);
+
+     -webkit-animation-name: slideInfo;
+     -webkit-animation-duration: 1s;
+     -webkit-animation-fill-mode: both;
+     -webkit-transition-timing-function: cubic-bezier(.42, 0, .58, 1);
+}
+@keyframes slideInfo{
+    0%{
+       opacity: 0;
+        transform: translateX(2.4em);
+    }
+
+    100%{
+        opacity: 0.6;
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+@-webkit-keyframes slideInfo{
+    0%{
+       opacity: 0;
+       -webkit-transform: translateX(2.4em);
+    }
+
+    100%{
+        opacity: 0.6;
+        -webkit-transform: translateX(0);
+        visibility: visible;
+    }
+}
+.col:hover .info{
+    visibility: hidden;
+}
+.generalContent,.rateContent,.reserveContent,.commentContent{
+  width: 98%;
+  height: 450px;
+  
+    padding: 1%;
+    color: dodgerblue;
+  background-color: lightyellow;
+  opacity: 0;
+  border: 1px solid black;
+  margin: auto;
+    margin-bottom: 12px;
+  display: none;
+	font-size: 1.4em;
+
+}
+.generalContent{
+    display: block;
+    opacity: 0.8;
+}
+.generalContent.visible,.rateContent.visible,.reserveContent.visible,.commentContent.visible{
+    animation-name: showVisible;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    transition-timing-function: ease-in;
+
+     -webkit-animation-name: showVisible;
+     -webkit-animation-duration: 2s;
+     -webkit-animation-fill-mode: both;
+     -webkit-transition-timing-function: ease-in;
+}
+@keyframes showVisible{
+    0%{
+       opacity: 0; 
+      display: block;
+    }
+
+    100%{
+        opacity: 0.8; 
+        
+    }
+}
+
+.generalContent.hidden,.rateContent.hidden,.reserveContent.hidden,.commentContent.hidden{
+    animation-name: hideVisible;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    transition-timing-function: ease-in;
+
+     -webkit-animation-name: hideVisible;
+     -webkit-animation-duration: 2s;
+     -webkit-animation-fill-mode: both;
+     -webkit-transition-timing-function: ease-in;
+}
+@keyframes hideVisible{
+    0%{
+       opacity: 0.8;
+        
+    }
+
+    100%{
+        opacity: 0; 
+        display: none;
+    }
+}
+@media all and (max-width:1318px){
+ #snipnet .row .col{
+        height:200px;
+        margin: 0.5%;
+    }
+    #snipnet .row{
+        height: 310px;
+        margin-bottom: 5px;
+    }
+    #snipnet{
+        height: 320px;
+    }
+    .col .background{
+        height: 200px;
+    }
+    .desc,.info{
+        height: 50px;
+        font-size: 1.0em;
+    }
+}
+@media all and (max-width:1111px){
+    #snipnet .row .col{
+        height: 180px;
+    }
+    .col .background{
+        height: 178px;
+    }
+}
+@media all and (max-width:997px){
+    #snipnet .row .col{
+        height: 140px;
+    }
+    .col .background{
+        height: 138px;
+    }
+    #snipnet .row{
+        height: 190px;
+        margin-bottom: 8px;
+    }
+    #snipnet{
+        height: 215px;
+    }
+    .desc,.info{
+        font-size: 0.7em;
+         height: 45px;
+    }
+}
+@media all and (max-width:826px){
+    #snipnet .row .col{
+        height: 110px;
+    }
+    .col .background{
+        height: 108px;
+    }
+    #snipnet .row{
+        height: 150px;
+        margin-bottom: 6px;
+    }
+    #snipnet{
+        height: 175px;
+    }
+    .desc,.info{
+        height: 40px;
+        font-size: 0.6em;
+    }
+}
+
+@media all and (max-width:619px){
+    #snipnet .row .col{
+        height:30px;
+         margin: 0.5%;
+    }
+    #snipnet .row{
+        height: 50px;
+        margin-bottom: 15px;
+    }
+    #snipnet{
+        height: 70px;
+    }
+    .col .background{
+        height: 30px;
+    }
+    .desc,.info{
+        height: 30px;
+        font-size: 0.5em;
+    }
+}
+@media all and (max-width:547px){
+    #snipnet .row .col{
+        height:30px;
+        margin: 0.5%;
+    }
+    #snipnet .row{
+        height: 40px;
+        margin-bottom: 5px;
+    }
+    #snipnet{
+        height: 52px;
+    }
+    .col .background{
+        height: 30px;
+    }
+    .desc,.info{
+        height: 30px;
+        font-size: 0.4em;
+    }
+}
