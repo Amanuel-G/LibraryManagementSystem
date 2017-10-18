@@ -1,4 +1,4 @@
-#Library Management System
+# Library Management System
 
 This project is part of Software engineering class project which focuses on following software engineering principles to Implement  a Library Management system.
 
