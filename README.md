@@ -12,4 +12,4 @@ The project is part of a class project for Software Engineering 1 class where st
 
 For the database config see the readme on database
 
-The project is not fully tasted and might contain some bugs. will try to make a Test Plan Document (TPD) soon
+
